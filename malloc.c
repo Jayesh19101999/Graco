@@ -20,6 +20,7 @@ int main(void)
     {
         printf("%d ",arr[i]);
     }
+    printf("final");
 
     return 0;
 }
