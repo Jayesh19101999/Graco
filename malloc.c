@@ -50,14 +50,14 @@ int main(int argc,char *argv[])
 
     if(input == NULL || output == NULL)
     {
-        perror("error");
+        perror("error: ");
         exit(EXIT_FAILURE);
     }
     strncpy(output,"dataop",buffer_size-1);
     printf("test %s",output);
     if(argc != 3)
     {   
-        perror("error");
+        perror("error :");
         free(input);
         free(output);
         exit(EXIT_FAILURE);
