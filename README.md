@@ -8,3 +8,6 @@ calloc : calloc is similar to malloc the only difference is that it initilizes t
 
 realloc : realloc extra memory allocation is done with same two arguments.
 
+
+
+function_pointer : return_type(*pointer)(parameters)
